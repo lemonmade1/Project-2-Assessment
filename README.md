@@ -1,8 +1,8 @@
 # Run: #
 #### nodemon ####
 
-#### Local Host: ####
+# Local Host: #
 [Visit website](http://localhost:3333 "Project 2 Assessment")
 
-#### Github: ####
+# Github: #
 [Visit website](https://github.com/lemonmade1/Project-2-Assessment.git "Project 2 Assessment")
