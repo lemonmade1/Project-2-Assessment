@@ -3,7 +3,7 @@ const Todo = require('../data/todo');
 const index = (req, res, next) => {
   res.render('/index', {
     todos: Todo.getAll(),
-    done: false,
+    done: '',
   });
 };
 

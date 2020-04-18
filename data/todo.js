@@ -1,6 +1,6 @@
 const todos = [{
-  todo: 'Example To Do',
-  done: false,
+  todo: '',
+  done: '',
 }];
 
 // const done = false;
