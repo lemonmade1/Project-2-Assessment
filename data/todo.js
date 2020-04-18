@@ -1,4 +1,11 @@
-const todos = [];
+const todos = [{
+  todo: 'Example To Do',
+  done: false,
+}];
+
+// const done = false;
+
+console.log(todos)
 
 const getAll = () => {
   return todos;

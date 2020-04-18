@@ -12,5 +12,23 @@ a {
   margin-right: 10px;
 }
 
+li {
+  width: 290px;
+  display: flex;  
+  justify-content: space-between;
+}
+
+p {
+  margin: 0;
+  width: 215px;
+  display: flex;  
+  justify-content: space-between;
+}
+
+.notDone {
+  color: red;
+  margin: 0;
+}
+
 
 

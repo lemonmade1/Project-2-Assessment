@@ -1,22 +1,21 @@
-const Todo = require('../models/todo')
+const Todo = require('../data/todo');
 
 const index = (req, res, next) => {
-  res.render('todos/index', {
+  res.render('/index', {
     todos: Todo.getAll(),
-    time: req.time
+    done: false,
   });
 };
 
 const create = (req, res) => {
-  console.log(req.body);
   req.body.done = false;
   Todo.create(req.body);
-  res.redirect('/todos');
+  res.redirect('/');
 }
 
 const deleteTodo = (req, res) => {
  Todo.deleteOne(req.params.id);
-  res.redirect('/todos');
+  res.redirect('/');
 }
 
 
@@ -24,5 +23,4 @@ module.exports = {
   index,
   create,
   deleteTodo,
- 
 };
